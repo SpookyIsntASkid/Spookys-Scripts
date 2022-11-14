@@ -96,7 +96,7 @@ seen before so yes its good
         notifaction = true,
         pingprediction = false,
         FOV = math.huge,
-        RESOVLER = false,
+        RESOVLER = true,
         Tracer = true,
         TracerColor = Color3.new(0, 255, 238),
         TracerTransparency = 0.75,
