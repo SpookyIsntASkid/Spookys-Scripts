@@ -1,0 +1,60 @@
+ocal settings = {
+    cashdrop = true, -- 100k
+    owodropper = false, -- 10k
+    uwudropper = false, -- 1k
+    daddydroper = false -- 100
+    }
+    
+    
+    ------------------------------------------------------------------------------------------------ 100k code
+    if settings.cashdrop == true then
+        repeat
+        wait()
+    
+    local args = {
+        [1] = "DropMoney",
+        [2] = "100000"
+    }
+    
+    game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+      
+        until settings.cashdrop == false 
+    end
+    --------------------------------------------------------------------------------------------------- 10K code
+    if settings.owodropper == true then
+        repeat
+        wait() 
+        local args = {
+            [1] = "DropMoney",
+            [2] = "10000"
+        }
+        
+        game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+        until settings.owodropper == false
+    end
+    -------------------------------------------------------------------------------------------------- 1k code
+     if uwudropper == true then
+        repeat
+            wait()
+            local args = {
+                [1] = "DropMoney",
+                [2] = "1000"
+            }
+            
+            game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+        until settings.uwudropper == false 
+    
+     end
+     ------------------------------------------------------------------------------------------------- 100 code
+    
+     if daddydroper == true then
+         repeat
+             wait()
+             local args = {
+                [1] = "DropMoney",
+                [2] = "100"
+            }
+            
+            game:GetService("ReplicatedStorage"):FindFirstChild(".gg/untitledhood"):FireServer(unpack(args))
+         until settings.daddydroper == false
+     end
